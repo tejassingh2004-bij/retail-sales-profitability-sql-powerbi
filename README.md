@@ -1,16 +1,18 @@
 # Retail / E-Commerce Sales & Profitability Analysis (SQL + Power BI)
 
-A SQL-first analysis of retail order-line data — a normalized star-schema
-database, eight analysis scripts answering real business questions, and a
-Power BI report built on top of it.
+**Status: SQL layer ✅ complete & verified — Power BI report 🚧 in progress**
 
-> **Status note:** the SQL layer (schema, ETL, all 8 analysis scripts) is
-> complete and verified — every query runs clean against the included
-> SQLite database. The Power BI report needs to be built in Power BI
-> Desktop (Windows-only software) following `docs/POWER_BI_BUILD_GUIDE.md`
-> and `powerbi/DAX_measures.dax`; both are included so that's a guided
-> 30–45 minute step rather than a blank canvas. See that folder for the
-> exported data and a design-reference layout.
+A SQL-first analysis of retail order-line data — a normalized star-schema
+database and eight analysis scripts answering real business questions, with
+a Power BI report being built on top of it.
+
+The SQL layer is done: schema, ETL, and all 8 analysis scripts run clean
+against the included SQLite database (see **Running it yourself** below to
+verify that in under a minute). The Power BI report is the next step — the
+data export, every DAX measure, and a page-by-page build guide are already
+in `powerbi/` and `docs/`, so it's a guided build rather than a blank
+canvas. This README will be updated with the finished `.pbix` and real
+report screenshots once that's done.
 
 ## Business questions this answers
 
